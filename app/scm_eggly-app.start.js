@@ -40,10 +40,6 @@ angular.module('Eggly', [
     $scope.isCurrentCategory  = isCurrentCategory;
     $scope.setCurrentCategory = setCurrentCategory;
 
-    //-------------------------------------------------------------------------------------------------
-    // CRUD: CREATE UPDATE AND DELETE
-    //-------------------------------------------------------------------------------------------------
-
     function resetCreateForm() {
       $scope.newBookmark = {
         title: '',
@@ -52,6 +48,9 @@ angular.module('Eggly', [
       };
     }
 
+    //-------------------------------------------------------------------------------------------------
+    // CRUD: CREATE UPDATE AND DELETE
+    //-------------------------------------------------------------------------------------------------
     function createBookmark(bookmark) {
       bookmark.id = $scope.bookmarks.length;
       $scope.bookmarks.push(bookmark);
