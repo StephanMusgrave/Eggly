@@ -67,6 +67,7 @@ angular.module('Eggly', [
       $scope.editedBookmark = angular.copy(bookmark);
     }
 
+    // _.findIndex is a Lo-Dash utitlity method
     function updateBookmark(bookmark){
       var index = _.findIndex($scope.bookmarks, function(b){
         return b.id == bookmark.id;
@@ -83,6 +84,15 @@ angular.module('Eggly', [
     $scope.setEditedBookmark = setEditedBookmark;
     $scope.updateBookmark = updateBookmark;
     $scope.isSelectedBookmark = isSelectedBookmark;
+
+    // _.remove is a Lo-Dash utitlity method
+    function deleteBookmark(bookmark) {
+      _.remove($scope.bookmarks, function(b){
+        return b.id == bookmark.id;
+      });
+    }
+    
+    $scope.deleteBookmark = deleteBookmark;
 
     //-------------------------------------------------------------------------------------------------
     // CREATING AND EDITING STATES
