@@ -1,1 +1,1 @@
-bookmarks-model.js
+angular.module('eggly.models.bookmarks', []);

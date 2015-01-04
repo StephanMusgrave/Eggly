@@ -1,1 +1,1 @@
-bookmark-create.js
+angular.module('categories.bookmarks.create', []);
