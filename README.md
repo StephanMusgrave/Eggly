@@ -1,20 +1,17 @@
 # Eggly - a bookmark manager built with AngularJS
 
 
-A project to develop an apartment rental site like Craigslist, following a [BaseRails] course.
+A project to develop a bookmark manager app, following a [egghead] course.
 
 ![](public/IMG_1456.JPG)
 
 ## Learning Objectives
-- To build an apartment rental site like Craigslist
-- Learn to use an API to scrape Craigslist apartment rental data. 
-- Build a beautiful web app to display live listings with filters.
-
+- 
 ## How to run it
 ```sh
-git clone git@github.com:StephanMusgrave/CraigsList_Scraper.git
-cd craigslist_scraper
-rails s
+$  git clone git@github.com:StephanMusgrave/Eggly.git
+$  cd eggly
+$  python -m SimpleHTTPServer
 
 ```
 
@@ -26,7 +23,7 @@ Click here to open the web page on Heroku: [App on Heroku]
 
 |Technology                 |Used for                        |
 |---------------------------|--------------------------------|
-|Heroku                     |Deployment: [App on Heroku]     |
+|AngularJS                  |Programming language            |
 |Heroku                     |Deployment: [App on Heroku]     |
 |HTML5                      |Web Pages                       |
 |CSS3                       |Styling                         |
@@ -42,11 +39,11 @@ Click here to open the web page on Heroku: [App on Heroku]
 
 [Steve Musgrave]:https://github.com/StephanMusgrave
 [App on Heroku]:https://eggly-musgrave.herokuapp.com/
-[egghead]:https://egghead.io/lessons/angularjs-building-an-angular-app-eggly-introduction
+[egghead]:https://egghead.io/
 
 
 #Local Server:
-If you need a quick web server running and you don't want to mess with setting up apache or something similar, then Python can help. Python comes with a simple builtin HTTP server. With the help of this little HTTP server you can turn any directory in your system into your web server directory. The only thing you need to have installed is Python.
+If you need a quick web server running and you don't want to mess with setting up apache or something similar, then Python can help. Python comes with a simple built in HTTP server. With the help of this little HTTP server you can turn any directory in your system into your web server directory. The only thing you need to have installed is Python.
 
 Practically speaking this is very useful to share files inside your local network. Implementing this tiny but hugely useful HTTP server is very simple, its just a single line command.
 
