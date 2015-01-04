@@ -7,6 +7,7 @@ A project to develop a bookmark manager app, following a [egghead] course.
 
 ## Learning Objectives
 - 
+
 ## How to run it
 ```sh
 $  git clone git@github.com:StephanMusgrave/Eggly.git
@@ -23,13 +24,13 @@ Click here to open the web page on Heroku: [App on Heroku]
 
 |Technology                 |Used for                        |
 |---------------------------|--------------------------------|
-|AngularJS                  |Programming language            |
+|Javascript                 |Programming language            |
+|AngularJS                  |a web application framework for creating one-page web applications that only require HTML, CSS, and JavaScript on the client side |
+|ui-router                  |State-based routing for AngularJS, an alternative to AngularJS's default routing module |
 |Heroku                     |Deployment: [App on Heroku]     |
 |HTML5                      |Web Pages                       |
 |CSS3                       |Styling                         |
 |Glypicons                  |for styling links and buttons   |
-|Javascript                 |animations for alerts           |
-
 
 ## Developed by
 
