@@ -1,18 +1,20 @@
 # Eggly - a bookmark manager built with AngularJS
 
 
-A project to develop a bookmark manager app, following a [egghead] course.
+A project to develop a bookmark manager app, following an [egghead] course.
 
 ![](public/IMG_1456.JPG)
 
 ## Learning Objectives
-- 
+- To improve my AngularJS skills
+
 
 ## How to run it
 ```sh
 $  git clone git@github.com:StephanMusgrave/Eggly.git
 $  cd eggly
 $  python -m SimpleHTTPServer
+  =>  http://localhost:8000/index.html#/
 
 ```
 
