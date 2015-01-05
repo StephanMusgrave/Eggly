@@ -19,8 +19,12 @@ angular.module('categories', [
   })
 
   .controller('CategoriesListCtrl', function CategoriesListCtrl(CategoriesModel){
-    var CategoriesListCtrl = this;
-    CategoriesListCtrl.categories = CategoriesModel.getCategories();
+    var categoriesListCtrl = this;
+    
+    CategoriesModel.getCategories()
+      .then(function(result) {
+        categoriesListCtrl.categories = result;
+      });
   })
 ;
 
