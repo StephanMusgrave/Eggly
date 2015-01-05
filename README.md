@@ -27,8 +27,9 @@ Click here to open the web page on Heroku: [App on Heroku]
 |Technology                 |Used for                        |
 |---------------------------|--------------------------------|
 |Javascript                 |Programming language            |
-|AngularJS                  |a web application framework for creating one-page web applications that only require HTML, CSS, and JavaScript on the client side |
+|AngularJS                  |A web application framework for creating one-page web applications that only require HTML, CSS, and JavaScript on the client side |
 |ui-router                  |State-based routing for AngularJS, an alternative to AngularJS's default routing module |
+|Lo-Dash                    |A JS utility library, alternative to underscore.js            |
 |Heroku                     |Deployment: [App on Heroku]     |
 |HTML5                      |Web Pages                       |
 |CSS3                       |Styling                         |
