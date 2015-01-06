@@ -36,7 +36,7 @@
 | $  karma start  | http://localhost:9876/ |
 
 
-|Jasmine:  | http://jasmine.github.io/2.1/introduction.html |
+| Jasmine:  | http://jasmine.github.io/2.1/introduction.html |
 |--|--|
 | Using Jasmine with Python: | http://jasmine.github.io/2.1/python_egg.html |
 | $ pip install jasmine | You can install Jasmine using pip or by adding it to yourrequirements.txt. |
