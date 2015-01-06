@@ -18,7 +18,12 @@ angular.module('eggly.models.categories', [
     }
 
     model.getCategories = function() {
-      return $http.get(URLS.FETCH).then(cacheCategories);
+      return (categories) ? $q.when(categories) : $http.get(URLS.FETCH).then(cacheCategories);
+    };
+
+    model.getCategoryByName = function() {
+      var deferred =$q.defer();
+      return deferred.promise;
     };
   })
 ;
